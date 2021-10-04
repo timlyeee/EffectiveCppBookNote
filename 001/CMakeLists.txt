@@ -1,0 +1,8 @@
+set(MODULE_NAME "001")
+set(PROJ_SOURCES)
+list(APPEND PROJ_SOURCES
+    ${CMAKE_CURRENT_LIST_DIR}/main.cpp
+)
+add_executable(${MODULE_NAME}
+    ${PROJ_SOURCES}
+)
